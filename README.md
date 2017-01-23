@@ -4,7 +4,7 @@
 
 1. Modify the program so it also shows two diagonals (the final graphics will show 4 lines)
 
-## Part 2 - [Current Commit](#)
+## Part 2 - [Jump](https://github.com/NickBeukema/CIS367-Homework2/tree/part-2)
 
 1. Modify the program
 	* Change the triangle to a hexagon
@@ -17,3 +17,8 @@
 		* This drawing mode would result in one line starting at the first point, and ending at the last point given. If using the points given in the example above, it would result in a line starting at `(0,1)` and ending at `(-1,0)`, while hitting each point in between with straight lines.
 	* (c) `gl.LINE_LOOP`
 		* The `LINE_LOOP` configuration does everything the above mode does (`LINE_STRIP`), except it connects the first point and last point, resulting in a shape with the given points, fully connected.
+
+## Part 3 - [Current Commit](#)
+
+1. Modify the program so the graphics output looks like
+	* ![](http://www.cis.gvsu.edu/~dulimarh/CS367/WebGL-Tutorials/t3-colors/t3-quiz0.png)
