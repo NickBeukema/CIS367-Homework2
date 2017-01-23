@@ -6,11 +6,32 @@
     <script src="../shader-utils.js"></script>
     <script src="render.js"></script>
     <title>My First WebGL</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body onload="main()">
-    <p>Hello World!</p>
-    <canvas id="my-canvas" width="512" height="512">
-        Your browser does not support &lt;canvas&gt;
-    </canvas>
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Assignment 2</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../part-1">Part 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../part-2">Part 2</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Part 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <canvas id="my-canvas" width="512" height="512">
+            Your browser does not support &lt;canvas&gt;
+        </canvas>
+    </div>
 </body>
 </html>
